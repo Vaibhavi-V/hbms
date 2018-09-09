@@ -1,0 +1,170 @@
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 180
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 181
+2018-09-08-main-INFO -root      :Customer searched hotels in chennai Check in : 12-nov-2018 check out : 13-nov-2018 room size : 2
+2018-09-08-main-ERROR-root      :No hotels found for above search
+2018-09-08-main-INFO -root      :Customer searched hotels in chennai Check in : 13-apr-2018 check out : 14-apr-2018 room size : 2
+2018-09-08-main-INFO -root      :Customer login successful. User Id : 101
+2018-09-08-main-INFO -root      :Customer booking is successful. booking ID is :151
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 182
+2018-09-08-main-INFO -root      :Customer searched hotels in mumbai Check in : 18-sep-2019 check out : 19-sep-2019 room size : 2
+2018-09-08-main-ERROR-root      :No hotels found for above search
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 183
+2018-09-08-main-INFO -root      :Customer searched hotels in chennai Check in : 12-may-2018 check out : 13-may-2018 room size : 2
+2018-09-08-main-INFO -root      :Customer login successful. User Id : 183
+2018-09-08-main-INFO -root      :Customer booking is successful. booking ID is :152
+2018-09-08-main-ERROR-root      :Customer login failed 
+2018-09-08-main-INFO -root      :Customer login successful. User Id : 183
+2018-09-08-main-INFO -root      :Employee Registered successfully. Emp Id : 184
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-ERROR-root      :No hotels found
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-INFO -root      :Customer Registered successfully 185
+2018-09-08-main-INFO -root      :Customer's booking is successful
+Booking ID is :153
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-ERROR-root      :No guest list found
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 184
+2018-09-08-main-INFO -root      :Admin Registered successfully. Admin Id : 186
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Hotel Id 182 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Hotel Id 182 updated successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Hotel 182 deleted Successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Room Id 82 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Room 82 updated Successfuly
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Room 82 deleted Successfully in Hotel180
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-ERROR-root      :No booking found
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 186
+2018-09-08-main-INFO -root      :Admin Registered successfully. Admin Id : 1000
+2018-09-08-main-INFO -root      :Admin Registered successfully. Admin Id : 100
+2018-09-08-main-INFO -root      :Admin Registered successfully. Admin Id : 101
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 102
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 103
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 104
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 1 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 2 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 4 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 5 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-ERROR-root      :Admin Login failed
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 6 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 7 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 8 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 9 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 10 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 11 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Hotel Id 12 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 1 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 2 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 3 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 4 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 5 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 6 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 7 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 8 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 9 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 10 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 11 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 12 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 13 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 14 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 15 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 16 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 17 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 18 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 19 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 20 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 21 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 22 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 23 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 24 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 25 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 26 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 27 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 28 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 29 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 30 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 31 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 32 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 33 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 34 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 35 added successfully
+2018-09-08-main-INFO -root      :Admin login successful. Admin Id : 100
+2018-09-08-main-INFO -root      :Room Id 36 added successfully
+2018-09-08-main-INFO -root      :Customer Registered successfully. User Id : 105
+2018-09-08-main-INFO -root      :Customer searched hotels in chennai Check in : 20-sep-2018 check out : 21-sep-2018 room size : 2
+2018-09-08-main-INFO -root      :Customer login successful. User Id : 105
+2018-09-08-main-INFO -root      :Customer booking is successful. booking ID is :1000
+2018-09-08-main-INFO -root      :Employee Registered successfully. Emp Id : 106
+2018-09-08-main-INFO -root      :Employee Registered successfully. Emp Id : 107
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 107
+2018-09-08-main-INFO -root      :Customer Registered successfully 108
+2018-09-08-main-INFO -root      :Customer's booking is successful
+Booking ID is :1001
+2018-09-08-main-INFO -root      :Employee login successful. User Id : 107
+2018-09-08-main-INFO -root      :Customer searched hotels in chennai Check in : 23-sep-2018 check out : 25-sep-2018 room size : 2
+2018-09-08-main-INFO -root      :Customer login successful. User Id : 102
+2018-09-08-main-INFO -root      :Customer booking is successful. booking ID is :1002
+2018-09-08-main-INFO -root      :Customer searched hotels in chennai Check in : 23-sep-2018 check out : 24-sep-2018 room size : 2

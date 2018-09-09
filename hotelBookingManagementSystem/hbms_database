@@ -1,0 +1,77 @@
+CREATE TABLE users(user_id  number(4) PRIMARY KEY, password VARCHAR2(15), role VARCHAR2(10), 
+user_name  VARCHAR2(20), mobile_no  VARCHAR2(10),  
+address   VARCHAR2(100), email VARCHAR2(30));
+
+CREATE SEQUENCE USER_ID_SEQ START WITH 100 INCREMENT BY 1;
+
+insert into users values(100,'vaibhu','admin','vaibhavi','9874563211','no.37,Srinagar','vaisetty@gmail.com');
+insert into users values(101,'vaibhu','customer','hello','9874563211','no.37,Srinagar','setty@gmail.com');
+insert into users values(102,'vaibhu','admin','arun','9874563211','no.37,Srinagar','vaisey@gmail.com');
+
+
+
+CREATE TABLE hotel(hotel_id  number(4) primary key, city VARCHAR2(10), hotel_name  VARCHAR2(20), address VARCHAR2(100), 
+description VARCHAR2(50), avg_rate_per_night NUMBER(6), 
+phone_no1  VARCHAR2(10), phone_no2  VARCHAR2(10), rating  number, 
+email  VARCHAR2(35), fax VARCHAR2(15));
+
+CREATE SEQUENCE hotel_id_seq START WITH 1 INCREMENT BY 1;
+
+insert into hotel values(1,'chennai','green resorts','no.89,siruseri','good',1500,'7894561231','9874563211',5,'green34@gmail.com','fasf');
+insert into hotel values(2,'bangalore','bang resorts','no.89,srinagar','good',1400,'7894561231','9874563211',5,'bang34@gmail.com','fasf');
+insert into hotel values(3,'chennai','ecr resorts','no.89,guindy','good',5000,'7894561231','9874563211',5,'ecr34@gmail.com','fasf');
+insert into hotel values(4,'hyderabad','hyd resorts','no.89,hyd','good',800,'7894561231','9874563211',5,'hyd34@gmail.com','fasf');
+
+
+
+
+
+CREATE TABLE RoomDetails(hotel_id  number(4) references hotel(hotel_id),  room_id number(4) primary key,  
+room_no varchar2(5), room_size number, room_type  VARCHAR2(20), 
+per_night_rate NUMBER(6), availability VARCHAR2(5),
+constraint fk_dlt_hotel FOREIGN KEY (hotel_id) 
+  REFERENCES hotel(hotel_id) 
+  ON DELETE CASCADE);
+
+CREATE SEQUENCE room_id_seq START WITH 1 INCREMENT BY 1;
+
+insert into roomdetails values(1,1,100,2,'ac delux',1500,'true');
+insert into roomdetails values(2,2,101,2,'ac std',1400,'true');
+insert into roomdetails values(3,3,103,2,'ac delux',1500,'true');
+insert into roomdetails values(4,4,104,2,'non ac std',800,'true');
+insert into roomdetails values(1,5,102,3,'non ac std',900,'true');
+
+
+
+
+CREATE TABLE BookingDetails(booking_id number(4) primary key, room_id number(4) references roomdetails(room_id), 
+ user_id number(4) references users(user_id), booked_from DATE, 
+booked_to DATE,no_of_adults NUMBER, amount NUMBER(6),hotel_id number(5) references hotel(hotel_id));
+
+
+CREATE TABLE BookingDetails(booking_id number(4) primary key, room_id number(4)  , 
+ user_id number(4) references users(user_id), booked_from DATE, 
+booked_to DATE,no_of_adults NUMBER, amount NUMBER(6),hotel_id number(5),
+CONSTRAINT fk_dlt_room 
+   FOREIGN KEY (room_id) 
+  REFERENCES roomdetails(room_id) 
+  ON DELETE CASCADE ,constraint fk1_dlt_hotel FOREIGN KEY (hotel_id) 
+  REFERENCES hotel(hotel_id) 
+  ON DELETE CASCADE );
+
+
+
+CREATE SEQUENCE book_id_seq START WITH 1000 INCREMENT BY 1;
+
+insert into BOOKINGDETAILS values(1000,1,100,'12-MAR-2018','14-MAR-2018',2,1400,1);
+insert into BOOKINGDETAILS values(1001,2,101,'17-MAR-2018','19-MAR-2018',2,1400,2);
+insert into BOOKINGDETAILS values(1002,3,102,'12-MAR-2018','14-MAR-2018',2,1400,3);
+insert into BOOKINGDETAILS values(1003,4,100,'12-MAR-2018','14-MAR-2018',2,1400,4);
+
+
+SELECT hotel_id,room_id FROM roomdetails WHERE (hotel_id,room_id) not in 
+(select hotel_id,room_id from bookingdetails where(booked_from between '14-March-2018' and '15-March-2018') or (booked_to-1 between '14-March-2018' and '15-March-2018'));
+
+SELECT r.hotel_id,r.room_id FROM roomdetails r ,hotel h WHERE (r.hotel_id= h.hotel_id) and (h.city='chennai') and (r.room_size=2) and (r.hotel_id,r.room_id) not in (select hotel_id,room_id from bookingdetails where(booked_from between '14-March-2018' and '15-March-2018') or (booked_to-1 between '14-March-2018' and '15-March-2018'));
+
+select * from BOOKINGDETAILS where booked_from <= '12-MAR-2018' and booked_to>='12-MAR-2018';
